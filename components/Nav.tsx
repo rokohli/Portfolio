@@ -3,12 +3,19 @@ import { useEffect, useState } from "react";
 
 export default function Nav() {
   const [dark, setDark] = useState(true);
+
   useEffect(() => {
-    const stored = typeof window !== 'undefined' ? localStorage.getItem("theme") : null;
-    const prefers = typeof window !== 'undefined' && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const isDark = stored ? stored === "dark" : prefers;
-    document.documentElement.classList.toggle("dark", isDark);
-    setDark(isDark);
+    try {
+      const stored = localStorage.getItem("theme");
+      const prefers = window.matchMedia?.("(prefers-color-scheme: dark)")?.matches ?? true;
+      const isDark = stored ? stored === "dark" : prefers;
+      document.documentElement.classList.toggle("dark", isDark);
+      setDark(isDark);
+    } catch {
+      // if anything goes wrong, default to dark to match your design
+      document.documentElement.classList.add("dark");
+      setDark(true);
+    }
   }, []);
 
   const toggle = () => {
@@ -32,8 +39,19 @@ export default function Nav() {
           <a href="#blog" className="hover:text-white">Blog</a>
         </nav>
         <div className="flex items-center gap-3">
-          <a href="/assets/Rohan_Kohli_Resume.pdf" className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 text-sm hover:bg-zinc-800">Download Résumé</a>
-          <button onClick={toggle} aria-label="Toggle dark/light" className="rounded-xl border border-zinc-700 px-2 py-1 text-sm hover:bg-zinc-800">🌗</button>
+          <a href="/assets/Rohan_Kohli_Resume.pdf" className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 text-sm hover:bg-zinc-800">
+            Download Résumé
+          </a>
+          <button
+            type="button"
+            onClick={toggle}
+            aria-label="Toggle dark/light"
+            aria-pressed={dark}
+            className="rounded-xl border border-zinc-700 px-2 py-1 text-sm hover:bg-zinc-800"
+            title={dark ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {dark ? "🌙" : "🌞"}
+          </button>
         </div>
       </div>
     </header>
