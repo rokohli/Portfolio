@@ -1,6 +1,6 @@
 # Rohan — Next.js Portfolio
 
-Modern, accessible portfolio using **Next.js (App Router)** + **TypeScript** + **Tailwind**. Pre-filled with resume content.
+Modern, accessible portfolio using **Next.js (App Router)** + **TypeScript** + **Tailwind**. Filled with resume content.
 
 ## Run locally
 ```bash
@@ -14,7 +14,7 @@ npm run dev
 npm i -g vercel
 vercel
 ```
-Or connect the GitHub repo to Vercel for auto-deploys.
+Connected GitHub repo to Vercel for auto-deploys.
 
 ## Customize
 - Replace `public/assets/headshot.jpg` with your image (optimize ≤ 200 KB).
