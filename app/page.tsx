@@ -11,8 +11,8 @@ export default function Page() {
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">Rohan Kohli</h1>
             <p className="mt-3 text-lg text-zinc-300">Computer Engineering student @ UIUC</p>
             <p className="mt-4 text-zinc-400 max-w-prose">
-              I build reliable software and hardware systems—ranging from Java backends and C++ data structures to SystemVerilog digital logic and EV electrical subsystems. 
-              Open to internships and hands‑on engineering roles.
+              I build reliable software and hardware systems—ranging from Java backends and C++ data structures to SystemVerilog digital logic and EV electrical subsystems.
+              Open to internships and hands-on engineering roles.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="#contact" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Work Together</a>
@@ -20,7 +20,7 @@ export default function Page() {
             </div>
             <ul className="mt-6 text-sm text-zinc-400">
               <li>Champaign, IL</li>
-              <li><a className="underline hover:text-white" href="tel:+16504849316">(650) 484‑9316</a></li>
+              <li><a className="underline hover:text-white" href="tel:+16504849316">(650) 484-9316</a></li>
               <li><a className="underline hover:text-white" href="mailto:kohli10@illinois.edu">kohli10@illinois.edu</a></li>
             </ul>
           </div>
@@ -42,9 +42,9 @@ export default function Page() {
               <p className="text-sm text-zinc-400">Palo Alto, CA · Jul 2023 – Aug 2023</p>
             </header>
             <ul className="mt-3 list-disc list-inside text-sm text-zinc-300 space-y-1">
-              <li>Developed and tested Java‑based solutions for code migration, improving system efficiency by ~20%.</li>
+              <li>Developed and tested Java-based solutions for code migration, improving system efficiency by ~20%.</li>
               <li>Collaborated with senior engineers to refine and debug system processes, contributing to stability.</li>
-              <li>Hands‑on with PostgreSQL & MySQL: established databases and optimized performance.</li>
+              <li>Hands-on with PostgreSQL & MySQL: established databases and optimized performance.</li>
             </ul>
             <div className="mt-3 text-xs text-zinc-400">Tech: Java · PostgreSQL · MySQL · Debugging · Performance</div>
           </article>
@@ -55,7 +55,7 @@ export default function Page() {
               <p className="text-sm text-zinc-400">Burlingame, CA · Jun 2020 – Jan 2024</p>
             </header>
             <ul className="mt-3 list-disc list-inside text-sm text-zinc-300 space-y-1">
-              <li>Built high‑performance PCs for gaming/creative/pro use, generating $1,000+ revenue.</li>
+              <li>Built high-performance PCs for gaming/creative/pro use, generating $1,000+ revenue.</li>
               <li>Delivered overclocking services, boosting speeds by 20–30% with safe thermals.</li>
               <li>Guided component selection by balancing performance, compatibility, and cost.</li>
             </ul>
@@ -82,7 +82,7 @@ export default function Page() {
         <div className="mt-6 grid gap-6">
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
             <header className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-lg font-semibold text-white">University of Illinois, Urbana‑Champaign — B.S. Computer Engineering</h3>
+              <h3 className="text-lg font-semibold text-white">University of Illinois, Urbana-Champaign — B.S. Computer Engineering</h3>
               <p className="text-sm text-zinc-400">Aug 2024 – Dec 2027</p>
             </header>
             <p className="mt-2 text-sm text-zinc-300">Relevant Coursework: Computer Systems & Programming, Introduction to Computing, Introduction to Electronics.</p>
@@ -96,8 +96,8 @@ export default function Page() {
         <div className="mt-6 grid md:grid-cols-2 gap-6">
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col">
             <h3 className="text-lg font-semibold text-white">RecipeGram</h3>
-            <p className="mt-2 text-sm text-zinc-300">Full‑stack web app for sharing recipes with responsive frontend and backend; implemented database schemas and queries to support user interactions and data integrity; collaborated with frontend team to define APIs and optimize UX.</p>
-            <div className="mt-3 text-xs text-zinc-400">Skills: Full‑stack · DB design · API collaboration</div>
+            <p className="mt-2 text-sm text-zinc-300">Full-stack web app for sharing recipes with responsive frontend and backend; implemented database schemas and queries to support user interactions and data integrity; collaborated with frontend team to define APIs and optimize UX.</p>
+            <div className="mt-3 text-xs text-zinc-400">Skills: Full-stack · DB design · API collaboration</div>
             <div className="mt-4 flex gap-3 text-sm">
               <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Demo (placeholder)</a>
               <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Source (placeholder)</a>
@@ -105,8 +105,8 @@ export default function Page() {
           </article>
 
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col">
-            <h3 className="text-lg font-semibold text-white">Anagram Dictionary System</hsi3>
-            <p className="mt-2 text-sm text-zinc-300">C++ templated binary search tree that groups words by sorted‑character signature; includes insertion, deletion, lookup, traversal; file I/O pipelines to read dictionary files and write ordered anagram groups.</p>
+            <h3 className="text-lg font-semibold text-white">Anagram Dictionary System</h3>
+            <p className="mt-2 text-sm text-zinc-300">C++ templated binary search tree that groups words by sorted-character signature; includes insertion, deletion, lookup, traversal; file I/O pipelines to read dictionary files and write ordered anagram groups.</p>
             <div className="mt-3 text-xs text-zinc-400">Skills: C++ · Data structures · File I/O</div>
             <div className="mt-4 flex gap-3 text-sm">
               <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Demo (placeholder)</a>
@@ -157,7 +157,7 @@ export default function Page() {
             <ul className="mt-3 list-disc list-inside text-sm text-zinc-300 space-y-1">
               <li>Designed electrical subsystems (battery management, power distribution).</li>
               <li>Assisted embedded team interfacing rearview camera systems with displays.</li>
-              <li>Set up sensor infrastructure supporting autonomy and real‑time awareness.</li>
+              <li>Set up sensor infrastructure supporting autonomy and real-time awareness.</li>
             </ul>
           </article>
         </div>
@@ -172,9 +172,9 @@ export default function Page() {
             <div className="mt-4 flex flex-col gap-2 text-sm">
               <a className="underline hover:text-white" href="mailto:kohli10@illinois.edu">kohli10@illinois.edu</a>
               <a className="underline hover:text-white" href="https://linkedin.com/in/rohan-kohli-7b627a327" target="_blank" rel="noopener">linkedin.com/in/rohan-kohli-7b627a327</a>
-              <a className="underline hover:text-white" href="#" aria-disabled="true">github.com/your‑handle (placeholder)</a>
+              <a className="underline hover:text-white" href="#" aria-disabled="true">github.com/your-handle (placeholder)</a>
               <a className="underline hover:text-white" href="#" aria-disabled="true">your-portfolio.example (placeholder)</a>
-              <span>Champaign, IL · <a className="underline hover:text-white" href="tel:+16504849316">(650) 484‑9316</a></span>
+              <span>Champaign, IL · <a className="underline hover:text-white" href="tel:+16504849316">(650) 484-9316</a></span>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="mailto:kohli10@illinois.edu" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Work Together</a>
