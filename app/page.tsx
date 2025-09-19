@@ -15,7 +15,7 @@ export default function Page() {
               Open to internships and hands-on engineering roles.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="#contact" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Work Together</a>
+              <a href="#contact" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Connect</a>
               <a href="https://linkedin.com/in/rohan-kohli-7b627a327" target="_blank" rel="noopener" className="inline-flex items-center rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm hover:bg-zinc-800">LinkedIn</a>
             </div>
             <ul className="mt-6 text-sm text-zinc-400">
@@ -46,7 +46,7 @@ export default function Page() {
               <li>Collaborated with senior engineers to refine and debug system processes, contributing to stability.</li>
               <li>Hands-on with PostgreSQL & MySQL: established databases and optimized performance.</li>
             </ul>
-            <div className="mt-3 text-xs text-zinc-400">Tech: Java · PostgreSQL · MySQL · Debugging · Performance</div>
+            <div className="mt-3 text-xs text-zinc-400">Tech: Java · PostgreSQL · MySQL · AWS · Debugging</div>
           </article>
 
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
@@ -59,19 +59,7 @@ export default function Page() {
               <li>Delivered overclocking services, boosting speeds by 20–30% with safe thermals.</li>
               <li>Guided component selection by balancing performance, compatibility, and cost.</li>
             </ul>
-            <div className="mt-3 text-xs text-zinc-400">Tech: PC hardware · Thermal management · Client consulting</div>
-          </article>
-
-          <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
-            <header className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-lg font-semibold text-white">Camp Counselor — ThinkBridge Summer Camp</h3>
-              <p className="text-sm text-zinc-400">Pacifica, CA · Jun 2022 – Jul 2022</p>
-            </header>
-            <ul className="mt-3 list-disc list-inside text-sm text-zinc-300 space-y-1">
-              <li>Mentored underprivileged students through STEM projects involving coding and critical thinking.</li>
-              <li>Collaborated with staff to build an inclusive, engaging environment.</li>
-            </ul>
-            <div className="mt-3 text-xs text-zinc-400">Focus: Mentorship · STEM · Collaboration</div>
+            <div className="mt-3 text-xs text-zinc-400">Tech: PC hardware · Overclocking · Client consulting</div>
           </article>
         </div>
       </section>
@@ -97,21 +85,13 @@ export default function Page() {
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col">
             <h3 className="text-lg font-semibold text-white">RecipeGram</h3>
             <p className="mt-2 text-sm text-zinc-300">Full-stack web app for sharing recipes with responsive frontend and backend; implemented database schemas and queries to support user interactions and data integrity; collaborated with frontend team to define APIs and optimize UX.</p>
-            <div className="mt-3 text-xs text-zinc-400">Skills: Full-stack · DB design · API collaboration</div>
-            <div className="mt-4 flex gap-3 text-sm">
-              <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Demo (placeholder)</a>
-              <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Source (placeholder)</a>
-            </div>
+            <div className="mt-3 text-xs text-zinc-400">Skills: Full-stack · Figma · API connection</div>
           </article>
 
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col">
             <h3 className="text-lg font-semibold text-white">Anagram Dictionary System</h3>
             <p className="mt-2 text-sm text-zinc-300">C++ templated binary search tree that groups words by sorted-character signature; includes insertion, deletion, lookup, traversal; file I/O pipelines to read dictionary files and write ordered anagram groups.</p>
             <div className="mt-3 text-xs text-zinc-400">Skills: C++ · Data structures · File I/O</div>
-            <div className="mt-4 flex gap-3 text-sm">
-              <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Demo (placeholder)</a>
-              <a className="inline-flex items-center rounded-xl border border-zinc-700 px-3 py-1.5 hover:bg-zinc-800" href="#" aria-disabled="true">Source (placeholder)</a>
-            </div>
           </article>
 
           <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col">
@@ -160,6 +140,18 @@ export default function Page() {
               <li>Set up sensor infrastructure supporting autonomy and real-time awareness.</li>
             </ul>
           </article>
+
+          <article className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
+            <header className="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 className="text-lg font-semibold text-white">Camp Counselor — ThinkBridge Summer Camp</h3>
+              <p className="text-sm text-zinc-400">Pacifica, CA · Jun 2022 – Jul 2022</p>
+            </header>
+            <ul className="mt-3 list-disc list-inside text-sm text-zinc-300 space-y-1">
+              <li>Mentored underprivileged students through STEM projects involving coding and critical thinking.</li>
+              <li>Collaborated with staff to build an inclusive, engaging environment.</li>
+            </ul>
+            <div className="mt-3 text-xs text-zinc-400">Focus: Mentorship · STEM · Collaboration</div>
+          </article>
         </div>
       </section>
 
@@ -172,17 +164,16 @@ export default function Page() {
             <div className="mt-4 flex flex-col gap-2 text-sm">
               <a className="underline hover:text-white" href="mailto:kohli10@illinois.edu">kohli10@illinois.edu</a>
               <a className="underline hover:text-white" href="https://linkedin.com/in/rohan-kohli-7b627a327" target="_blank" rel="noopener">linkedin.com/in/rohan-kohli-7b627a327</a>
-              <a className="underline hover:text-white" href="#" aria-disabled="true">github.com/your-handle (placeholder)</a>
-              <a className="underline hover:text-white" href="#" aria-disabled="true">your-portfolio.example (placeholder)</a>
+              <a className="underline hover:text-white" href="#" aria-disabled="true">github.com/rokohli</a>
               <span>Champaign, IL · <a className="underline hover:text-white" href="tel:+16504849316">(650) 484-9316</a></span>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="mailto:kohli10@illinois.edu" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Work Together</a>
+              <a href="mailto:kohli10@illinois.edu" className="inline-flex items-center rounded-2xl bg-white/10 hover:bg-white/15 px-5 py-2.5 text-sm">Let’s Connect</a>
               <a href="/assets/Rohan_Kohli_Resume.pdf" className="inline-flex items-center rounded-2xl border border-zinc-700 px-5 py-2.5 text-sm hover:bg-zinc-800">Download Résumé (PDF)</a>
             </div>
           </div>
           <div id="blog" className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
-            <h3 className="text-lg font-semibold text-white">Optional Blog</h3>
+            <h3 className="text-lg font-semibold text-white">Blog</h3>
             <p className="mt-2 text-sm text-zinc-300">Coming soon — writings on projects, systems, and engineering notes.</p>
           </div>
         </div>

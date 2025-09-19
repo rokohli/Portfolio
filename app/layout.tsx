@@ -3,13 +3,13 @@ import "./globals.css";
 import Nav from "../components/Nav";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://rohankohliresume.com"),
   title: "Rohan Kohli — Portfolio",
   description: "Computer Engineering student at UIUC. Software Engineering Intern (Striim), EV Concept Electrical Team, projects in full‑stack apps, C++ data structures, and digital logic.",
   openGraph: {
     title: "Rohan Kohli — Portfolio",
     description: "Computer Engineering @ UIUC • Software Engineering Intern (Striim) • EV Concept Electrical Team • Projects: RecipeGram, Anagram Dictionary, Vending Machine Controller",
-    url: "https://example.com",
+    url: "https://rohankohliresume.com",
     type: "website",
   },
   alternates: { canonical: "/" },
