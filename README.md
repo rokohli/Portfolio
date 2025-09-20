@@ -6,7 +6,7 @@ A modern, responsive Next.js portfolio website showcasing my experience as a Com
 [View Portfolio](https://rohan-portfolio-nextjs.vercel.app) <!-- Replace with your actual deployment URL -->
 
 ## 👨‍💻 About This Version
-This is the advanced TypeScript/Next.js version of my portfolio, demonstrating modern React development practices and framework expertise. The same content is available in a lightweight HTML version for quick loading.
+This is the advanced TypeScript/Next.js version of my portfolio, demonstrating modern React development practices and framework expertise.
 
 ## ✨ Next.js Features
 
@@ -41,7 +41,6 @@ This is the advanced TypeScript/Next.js version of my portfolio, demonstrating m
 
 ### Development Tools
 - **ESLint** - Code linting and formatting
-- **Prettier** - Code formatting (optional)
 - **Vercel** - Deployment and hosting platform
 
 ### Performance & SEO
@@ -185,6 +184,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **⭐ If you like this portfolio, please give it a star!**
 
-Built with ❤️ and ☕ by Rohan Kohli | Computer Engineering Student @ UIUC
+Built by Rohan Kohli | Computer Engineering Student @ UIUC
 
-*This Next.js version demonstrates advanced React/TypeScript skills alongside my main HTML portfolio.*
+*This Next.js version demonstrates advanced React/TypeScript skills displaying my portfolio.*
