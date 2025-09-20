@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website showcasing my experience as a Computer Engineering student at the University of Illinois, Urbana-Champaign.
 
 ## 🌐 Live Website
-[**🎯 Main Portfolio (HTML)**](https://rokohli.github.io/YOUR-REPO-NAME) - Fast, responsive, professional
+[**🎯 Main Portfolio (HTML)**](file:///Users/rohankohli/Downloads/rohan_portfolio.html) - Fast, responsive, professional
 
 [📁 TypeScript Version](https://rokohli.github.io/YOUR-REPO-NAME/typescript-version/dist/) - Advanced technical implementation
 
