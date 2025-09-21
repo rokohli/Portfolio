@@ -209,14 +209,14 @@ const ProjectsSection = () => {
     },
     {
       title: "RecipeGram",
-      date: "2024",
+      date: "2025",
       description: "Built a full-stack web application for sharing recipes with a responsive frontend and backend. Implemented database schemas and queries to support user interactions, ensuring data integrity and scalability. Worked alongside the frontend team to define API endpoints and optimize user experience.",
       techStack: ["Full-Stack Development", "Database Design", "API Development", "React.js", "Node.js"],
       category: "Software"
     },
     {
       title: "Anagram Dictionary System",
-      date: "2024",
+      date: "2025",
       description: "Designed an anagram dictionary system that groups words by sorted character signature using a binary tree. Constructed a templated binary search tree in C++ with insertion, deletion, lookup, and traversal operations. Developed file I/O pipelines to read dictionary files and save ordered anagram groupings.",
       techStack: ["C++", "Data Structures", "Binary Trees", "Algorithm Design", "File I/O"],
       category: "Software"
@@ -300,12 +300,12 @@ const SkillsSection = () => {
     {
       title: "Web Technologies",
       icon: "fas fa-laptop-code",
-      skills: ["HTML/CSS", "React.js", "Node.js", "SwiftUI"]
+      skills: ["HTML/CSS", "TypeScript", "React.js", "Node.js", "SwiftUI"]
     },
     {
       title: "Databases & Tools",
       icon: "fas fa-database",
-      skills: ["PostgreSQL", "MySQL", "Git", "AWS", "Figma", "Replit"]
+      skills: ["PostgreSQL", "MySQL", "Git", "AWS", "Figma"]
     },
     {
       title: "Hardware & Systems",
@@ -364,7 +364,7 @@ const ContactSection = () => {
       <h2 className="section-title fade-in">Let's Connect</h2>
       <div className="contact-content fade-in">
         <p className="contact-description">
-          I'm always interested in new opportunities and collaborations. 
+          I'm always interested in new opportunities, internships, and collaborations. 
           Whether you have a project in mind or just want to connect, feel free to reach out!
         </p>
         
@@ -416,7 +416,7 @@ const ContactSection = () => {
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Rohan Kohli. Built with Next.js for innovation and clean code.</p>
+      <p>&copy; 2025 Rohan Kohli. Built with Next.js for innovation and clean code.</p>
     </footer>
   );
 };
