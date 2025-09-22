@@ -446,7 +446,6 @@ body {
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
 }
-/* Additional CSS to add to your styles/globals.css file */
 
 /* Project Categories */
 .project-category {
@@ -472,41 +471,6 @@ body {
   margin-left: 1rem;
 }
 
-/* Enhanced Project Cards */
-.project-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.project-date {
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-  font-weight: 500;
-  white-space: nowrap;
-  background: var(--bg-tertiary);
-  padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-}
-
-.project-association {
-  color: var(--accent);
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.project-association i {
-  font-size: 0.8rem;
-}
-
 /* Hardware vs Software differentiation */
 .project-card[data-category="hardware"]::before {
   background: linear-gradient(90deg, #ff6b6b 0%, #ffd93d 100%);
@@ -518,16 +482,6 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .project-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-  }
-  
-  .project-date {
-    align-self: flex-start;
-  }
-  
   .category-title {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;

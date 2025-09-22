@@ -115,7 +115,7 @@ const ExperienceSection = () => {
         "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
         "Set up vehicle sensor infrastructure to support autonomous driving and improve real-time situational awareness"
       ],
-      techStack: ["Electrical Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
+      techStack: ["PCB Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
     },
     {
       title: "Founder & Computer Hardware Specialist",
@@ -201,29 +201,24 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "Sound-Activated LED Switch (\"Modern Clapper\")",
-      date: "Apr 2025 - May 2025",
-      association: "University of Illinois Urbana-Champaign",
       description: "Designed and built a sound-activated switching circuit that toggles an LED on/off in response to a loud clap. Implemented a microphone, LM358 op-amp amplifier, and BJT latch to reliably detect sharp audio signals while minimizing noise. Strengthened skills in circuit design, debugging, and oscilloscope signal analysis, learning how small changes in component values impact real-world performance.",
       techStack: ["Circuit Design", "Analog Electronics", "Signal Processing", "Oscilloscope Analysis"],
       category: "Hardware"
     },
     {
       title: "RecipeGram",
-      date: "2025",
       description: "Built a full-stack web application for sharing recipes with a responsive frontend and backend. Implemented database schemas and queries to support user interactions, ensuring data integrity and scalability. Worked alongside the frontend team to define API endpoints and optimize user experience.",
       techStack: ["Full-Stack Development", "Database Design", "API Development", "React.js", "Node.js"],
       category: "Software"
     },
     {
       title: "Anagram Dictionary System",
-      date: "2025",
       description: "Designed an anagram dictionary system that groups words by sorted character signature using a binary tree. Constructed a templated binary search tree in C++ with insertion, deletion, lookup, and traversal operations. Developed file I/O pipelines to read dictionary files and save ordered anagram groupings.",
       techStack: ["C++", "Data Structures", "Binary Trees", "Algorithm Design", "File I/O"],
       category: "Software"
     },
     {
       title: "Vending Machine Controller",
-      date: "2024",
       description: "Engineered combinational logic in SystemVerilog to generate and dispense outputs based on coin input states. Reduced the area of hardware design using only NAND, NOR, and NOT gates for future breadboard deployment. Implemented efficient logic circuits for real-world hardware applications.",
       techStack: ["SystemVerilog", "Digital Logic", "Hardware Design", "Circuit Optimization"],
       category: "Hardware"
@@ -236,18 +231,7 @@ const ProjectsSection = () => {
 
   const ProjectCard = ({ project, index }: { project: any; index: number }) => (
     <div key={index} className="project-card fade-in">
-      <div className="project-header">
-        <h3 className="project-title">{project.title}</h3>
-        {project.date && (
-          <span className="project-date">{project.date}</span>
-        )}
-      </div>
-      {project.association && (
-        <p className="project-association">
-          <i className="fas fa-university"></i>
-          {project.association}
-        </p>
-      )}
+      <h3 className="project-title">{project.title}</h3>
       <p className="project-description">{project.description}</p>
       <div className="tech-stack">
         {project.techStack.map((tech: string, i: number) => (
