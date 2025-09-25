@@ -17,6 +17,7 @@ const Header = ({ theme, toggleTheme }: { theme: string; toggleTheme: () => void
           <li><a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a></li>
           <li><a href="#education" onClick={() => setIsMenuOpen(false)}>Education</a></li>
           <li><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></li>
+          <li><a href="#activities" onClick={() => setIsMenuOpen(false)}>Activities</a></li>
           <li><a href="#skills" onClick={() => setIsMenuOpen(false)}>Skills</a></li>
           <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a></li>
         </ul>
@@ -273,6 +274,73 @@ const ProjectsSection = () => {
     </section>
   );
 };
+const ActivitiesSection = () => {
+  const activities = [
+    {
+      title: "Electrical Team Member",
+      company: "EV Concept, Champaign, IL",
+      date: "Aug 2024 – Present",
+      description: [
+        "Designed electrical subsystems for an electric vehicle, including battery management and power distribution",
+        "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
+        "Set up vehicle sensor infrastructure to support autonomous driving and improve real-time situational awareness"
+      ],
+      techStack: ["Electrical Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
+    },
+    {
+      title: "Founder & Computer Hardware Specialist",
+      company: "Custom PC Building Business, Burlingame, CA",
+      date: "Jun 2020 – Jan 2024",
+      description: [
+        "Customized high-performance PCs for gaming, creative, and professional use, generating $1,000+ in revenue",
+        "Delivered advanced overclocking services, boosting speeds by 20–30% while maintaining safe thermal levels",
+        "Guided clients through component selection by balancing performance, compatibility, and cost efficiency"
+      ],
+      techStack: ["Hardware Assembly", "Overclocking", "Performance Optimization", "Customer Service"]
+    },
+    {
+      title: "Camp Counselor",
+      company: "ThinkBridge Summer Camp, Pacifica, CA",
+      date: "Jun 2022 – Jul 2022",
+      description: [
+        "Mentored underprivileged students in completing STEM-based projects, involving coding and critical thinking",
+        "Collaborated with camp staff to create an inclusive and nurturing environment to encourage camper engagement"
+      ],
+      techStack: ["STEM Education", "Mentorship", "Leadership", "Team Collaboration"]
+    }
+  ];
+
+  return (
+    <section id="activities" className="section">
+      <h2 className="section-title fade-in">Activities & Leadership</h2>
+      <div className="experience-grid">
+        {activities.map((activity, index) => (
+          <div key={index} className="experience-item fade-in">
+            <div className="experience-header">
+              <div>
+                <h3 className="experience-title">{activity.title}</h3>
+                <p className="experience-company">{activity.company}</p>
+              </div>
+              <span className="experience-date">{activity.date}</span>
+            </div>
+            <div className="experience-description">
+              <ul>
+                {activity.description.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="tech-stack">
+              {activity.techStack.map((tech, i) => (
+                <span key={i} className="tech-tag">{tech}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 const SkillsSection = () => {
   const skillCategories = [
@@ -486,6 +554,7 @@ export default function Home() {
           <ExperienceSection />
           <EducationSection />
           <ProjectsSection />
+          <ActivitiesSection />
           <SkillsSection />
           <ContactSection />
         </main>
