@@ -106,38 +106,6 @@ const ExperienceSection = () => {
         "Gained hands-on experience with PostgreSQL and MySQL, establishing databases and optimizing performance"
       ],
       techStack: ["Java", "PostgreSQL", "MySQL", "Database Optimization"]
-    },
-    {
-      title: "Electrical Team Member",
-      company: "EV Concept, Champaign, IL",
-      date: "Aug 2024 – Present",
-      description: [
-        "Designed electrical subsystems for an electric vehicle, including battery management and power distribution",
-        "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
-        "Set up vehicle sensor infrastructure to support autonomous driving and improve real-time situational awareness"
-      ],
-      techStack: ["PCB Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
-    },
-    {
-      title: "Founder & Computer Hardware Specialist",
-      company: "Custom PC Building Business, Burlingame, CA",
-      date: "Jun 2020 – Jan 2024",
-      description: [
-        "Customized high-performance PCs for gaming, creative, and professional use, generating $1,000+ in revenue",
-        "Delivered advanced overclocking services, boosting speeds by 20–30% while maintaining safe thermal levels",
-        "Guided clients through component selection by balancing performance, compatibility, and cost efficiency"
-      ],
-      techStack: ["Hardware Assembly", "Overclocking", "Performance Optimization", "Customer Service"]
-    },
-    {
-      title: "Camp Counselor",
-      company: "ThinkBridge Summer Camp, Pacifica, CA",
-      date: "Jun 2022 – Jul 2022",
-      description: [
-        "Mentored underprivileged students in completing STEM-based projects, involving coding and critical thinking",
-        "Collaborated with camp staff to create an inclusive and nurturing environment to encourage camper engagement"
-      ],
-      techStack: ["STEM Education", "Mentorship", "Leadership", "Team Collaboration"]
     }
   ];
 
