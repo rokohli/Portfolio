@@ -105,7 +105,7 @@ const ExperienceSection = () => {
         "Collaborated with senior engineers to refine and debug system processes, contributing to software stability",
         "Gained hands-on experience with PostgreSQL and MySQL, establishing databases and optimizing performance"
       ],
-      techStack: ["Java", "PostgreSQL", "MySQL", "Database Optimization"]
+      techStack: ["Java", "PostgreSQL", "MySQL", "AWS", "Database Optimization"]
     }
   ];
 
@@ -159,6 +159,8 @@ const EducationSection = () => {
             <li>Computer Systems and Programming</li>
             <li>Introduction to Computing</li>
             <li>Introduction to Electronics</li>
+            <li>Linear Algebra with Computational Applications</li>
+            <li>Discrete Structures</li>
           </ul>
         </div>
       </div>
@@ -191,7 +193,14 @@ const ProjectsSection = () => {
       description: "Engineered combinational logic in SystemVerilog to generate and dispense outputs based on coin input states. Reduced the area of hardware design using only NAND, NOR, and NOT gates for future breadboard deployment. Implemented efficient logic circuits for real-world hardware applications.",
       techStack: ["SystemVerilog", "Digital Logic", "Hardware Design", "Circuit Optimization"],
       category: "Hardware"
+    },
+    {
+      title: "AssignmentSync",
+      description: "Implemented OAuth 2.0 for Google Classroom with secure token storage and support for additional platforms. Designed PostgreSQL schema with Prisma ORM for assignments and authentication tokens, including relational models, migrations, and query optimization with indexing. Built a full-stack homework aggregation platform, integrating data from multiple educational platforms through APIs and ICS file parsing into a singular calendar interface.",
+      techStack: ["React", "Next.js", "PostgreSQL", "TypeScript", "OAuth/API Integration"],
+      category: "Software"
     }
+      
   ];
 
   // Group projects by category
@@ -253,7 +262,7 @@ const ActivitiesSection = () => {
         "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
         "Set up vehicle sensor infrastructure to support autonomous driving and improve real-time situational awareness"
       ],
-      techStack: ["Electrical Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
+      techStack: ["PCB Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
     },
     {
       title: "Founder & Computer Hardware Specialist",
@@ -330,7 +339,7 @@ const SkillsSection = () => {
     {
       title: "Hardware & Systems",
       icon: "fas fa-microchip",
-      skills: ["Verilog", "SystemVerilog", "Digital Logic", "Embedded Systems", "Circuit Design"]
+      skills: ["Verilog", "SystemVerilog", "Digital Logic", "Embedded Systems", "Circuit Design", "PCB Design"]
     },
     {
       title: "Data & Analytics",
