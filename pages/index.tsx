@@ -199,6 +199,12 @@ const ProjectsSection = () => {
       description: "Implemented OAuth 2.0 for Google Classroom with secure token storage and support for additional platforms. Designed PostgreSQL schema with Prisma ORM for assignments and authentication tokens, including relational models, migrations, and query optimization with indexing. Built a full-stack homework aggregation platform, integrating data from multiple educational platforms through APIs and ICS file parsing into a singular calendar interface.",
       techStack: ["React", "Next.js", "PostgreSQL", "TypeScript", "OAuth/API Integration"],
       category: "Software"
+    },
+    {
+      title: "FPGA Sequence Game",
+      description: "Implemented an FPGA-based FSM in SystemVerilog for hardware sequence generation and input validation. Optimized state transitions and signal timing to ensure synchronous operation and gameplay on FPGA hardware. Utilized Xilinx Vivado for synthesis and simulation, conducting timing analysis and performance debugging.",
+      techStack: ["SystemVerilog", "Digital Logic", "Hardware Design", "Xilinx Vivado"],
+      category: "Hardware"
     }
       
   ];
