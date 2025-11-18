@@ -151,7 +151,7 @@ const EducationSection = () => {
             <h3 className="education-degree">Bachelor of Science in Computer Engineering</h3>
             <p className="education-school">University of Illinois, Urbana-Champaign (UIUC)</p>
           </div>
-          <span className="education-date">Aug 2024 – Dec 2027</span>
+          <span className="education-date">Aug 2024 – 2027</span>
         </div>
         <div className="experience-description">
           <p><strong>Relevant Coursework:</strong></p>
