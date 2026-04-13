@@ -101,8 +101,9 @@ const ExperienceSection = () => {
       company: "Striim Inc., Palo Alto, CA",
       date: "Jul 2023 – Aug 2023",
       description: [
-        "Developed and tested Java-based solutions for code migration, improving system efficiency by 20%",
+        "Built and validated Java-driven migration tooling to modernize legacy codebases, improving system efficiency by 20% through integration testing",
         "Collaborated with senior engineers to refine and debug system processes, contributing to software stability",
+        "Designed and provisioned PostgreSQL and MySQL databases to support high-throughput data streaming pipelines at production scale",
         "Gained hands-on experience with PostgreSQL and MySQL, establishing databases and optimizing performance"
       ],
       techStack: ["Java", "PostgreSQL", "MySQL", "AWS", "Database Optimization"]
@@ -161,6 +162,7 @@ const EducationSection = () => {
             <li>Introduction to Electronics</li>
             <li>Linear Algebra with Computational Applications</li>
             <li>Discrete Structures</li>
+            <li>Data Structures and Algorithms</li>
           </ul>
         </div>
       </div>
@@ -205,6 +207,18 @@ const ProjectsSection = () => {
       description: "Implemented an FPGA-based FSM in SystemVerilog for hardware sequence generation and input validation. Optimized state transitions and signal timing to ensure synchronous operation and gameplay on FPGA hardware. Utilized Xilinx Vivado for synthesis and simulation, conducting timing analysis and performance debugging.",
       techStack: ["SystemVerilog", "Digital Logic", "Hardware Design", "Xilinx Vivado"],
       category: "Hardware"
+    },
+    {
+      title: "StudyBetter",
+      description: "Won 1st place at Pulse 2026 Hackathon by building a real-time productivity tracking system with actionable student insights. Designed a burnout scoring algorithm incorporating study load, streak patterns, and break frequency to surface userfatigue over time. Built interactive dashboards to visualize study trends across daily, weekly, and subject-level views for data-driven habit adjustments",
+      techStack: ["JavaScript", "Next.js", "PostgreSQL", "Chrome Extension API"],
+      category: "Software"
+    },
+    {
+    title: "AI Study Planner",
+      description: "Designed an AI-powered task planning agent that autonomously generates and revises study schedules based on deadlines, workload estimates, and user behavior. Implemented LLM tool-calling workflows and constraint-based scheduling logic to produce adaptive, conflict-free plans that respond to real-time changes",
+      techStack: ["TypeScript", "Next.js", "PostgreSQL", "REST API", "Agentic AI"],
+      category: "Software"
     }
       
   ];
@@ -268,7 +282,7 @@ const ActivitiesSection = () => {
         "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
         "Set up vehicle sensor infrastructure to support autonomous driving and improve real-time situational awareness"
       ],
-      techStack: ["PCB Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
+      techStack: ["Embedded C", "PCB Design", "Embedded Systems", "Sensor Integration", "Autonomous Systems"]
     },
     {
       title: "Founder & Computer Hardware Specialist",
@@ -282,14 +296,13 @@ const ActivitiesSection = () => {
       techStack: ["Hardware Assembly", "Overclocking", "Performance Optimization", "Customer Service"]
     },
     {
-      title: "Camp Counselor",
-      company: "ThinkBridge Summer Camp, Pacifica, CA",
-      date: "Jun 2022 – Jul 2022",
+      title: "Developer",
+      company: "NOBE, Champaign, IL",
+      date: "Jan 2026 – Present",
       description: [
-        "Mentored underprivileged students in completing STEM-based projects, involving coding and critical thinking",
-        "Collaborated with camp staff to create an inclusive and nurturing environment to encourage camper engagement"
+        "For a financial client, I built a portfolio optimization algorithm in Python identifying stock combinations meeting unrealized gain and cost basis thresholds from financial CSV datasets, using pruning and heuristic search to improve runtime by ∼60% over a brute-force baseline"
       ],
-      techStack: ["STEM Education", "Mentorship", "Leadership", "Team Collaboration"]
+      techStack: ["Python", "Microsoft Azure SQL", "Docker", "CI/CD", "Git", "Team Collaboration", "Client Communication"]
     }
   ];
 
@@ -340,7 +353,7 @@ const SkillsSection = () => {
     {
       title: "Databases & Tools",
       icon: "fas fa-database",
-      skills: ["PostgreSQL", "MySQL", "Git", "AWS", "Figma"]
+      skills: ["PostgreSQL", "MySQL", "Git", "AWS", "Figma", "Docker", "CI/CD"]
     },
     {
       title: "Hardware & Systems",
