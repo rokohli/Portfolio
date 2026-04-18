@@ -65,7 +65,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-image">
           <img 
-            src="/headshot.jpg" 
+            src="/headshot.jpeg" 
             alt="Rohan Kohli Professional Headshot"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
