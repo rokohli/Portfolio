@@ -98,15 +98,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Software Engineering Intern",
+      company: "Cohesity, Santa Clara, CA",
+      date: "Jun 2026 – Aug 2026",
+      description: [
+        "Built a RAG pipeline turning resolved Jira support tickets and linked Confluence docs into a searchable knowledge base",
+        "Applied an LLM to distill tickets and fix commits into root-cause summaries, embedded via bge-m3 and indexed into a hybrid Qdrant vector database with quality-tiered ranking",
+        "Powered real-time auto-diagnosis by retrieving similar past issues and fixes to suggest a root cause before an engineer investigates",
+        "Turned scattered tribal support knowledge into an automated diagnostic agent, cutting time-to-resolution by 40%"
+      ],
+      techStack: ["Python", "LLM/RAG", "Qdrant", "Jira", "Confluence", "Vector Search"]
+    },
+    {
+      title: "Software Engineering Intern",
       company: "Striim Inc., Palo Alto, CA",
       date: "Jul 2023 – Aug 2023",
       description: [
         "Built and validated Java-driven migration tooling to modernize legacy codebases, improving system efficiency by 20% through integration testing",
         "Collaborated with senior engineers to refine and debug system processes, contributing to software stability",
         "Designed and provisioned PostgreSQL and MySQL databases to support high-throughput data streaming pipelines at production scale",
-        "Gained hands-on experience with PostgreSQL and MySQL, establishing databases and optimizing performance"
+        "Deployed and managed cloud-based data pipelines on AWS, enabling scalable and fault-tolerant distributed data processing"
       ],
-      techStack: ["Java", "PostgreSQL", "MySQL", "AWS", "Database Optimization"]
+      techStack: ["Java", "PostgreSQL", "MySQL", "AWS", "Database Optimization", "Data Pipelines"]
     }
   ];
 
@@ -152,7 +164,7 @@ const EducationSection = () => {
             <h3 className="education-degree">Bachelor of Science in Computer Engineering</h3>
             <p className="education-school">University of Illinois, Urbana-Champaign (UIUC)</p>
           </div>
-          <span className="education-date">Aug 2024 – 2027</span>
+          <span className="education-date">Aug 2024 – May 2028</span>
         </div>
         <div className="experience-description">
           <p><strong>Relevant Coursework:</strong></p>
@@ -172,6 +184,12 @@ const EducationSection = () => {
 
 const ProjectsSection = () => {
   const projects = [
+    {
+      title: "Cruzi",
+      description: "Built a student-only rideshare platform connecting verified students for affordable, campus-focused rides as riders or drivers. Engineered an end-to-end ride matching system coordinating rider requests, driver availability, location data, and real-time ride state transitions. Designed a scalable cloud backend supporting 1,000+ concurrent users with secure APIs, automated testing, document storage, and cloud infrastructure.",
+      techStack: ["Swift", "Node.js", "JavaScript", "Oracle Autonomous Database", "OCI", "Supabase Auth", "Docker", "Cloudflare", "Stripe", "Git"],
+      category: "Software"
+    },
     {
       title: "Sound-Activated LED Switch (\"Modern Clapper\")",
       description: "Designed and built a sound-activated switching circuit that toggles an LED on/off in response to a loud clap. Implemented a microphone, LM358 op-amp amplifier, and BJT latch to reliably detect sharp audio signals while minimizing noise. Strengthened skills in circuit design, debugging, and oscilloscope signal analysis, learning how small changes in component values impact real-world performance.",
@@ -198,8 +216,8 @@ const ProjectsSection = () => {
     },
     {
       title: "AssignmentSync",
-      description: "Implemented OAuth 2.0 for Google Classroom with secure token storage and support for additional platforms. Designed PostgreSQL schema with Prisma ORM for assignments and authentication tokens, including relational models, migrations, and query optimization with indexing. Built a full-stack homework aggregation platform, integrating data from multiple educational platforms through APIs and ICS file parsing into a singular calendar interface.",
-      techStack: ["React", "Next.js", "PostgreSQL", "TypeScript", "OAuth/API Integration"],
+      description: "Implemented secure OAuth 2.0 authentication for Google Classroom with automatic token refresh and a pluggable provider architecture for future LMS integrations. Optimized a PostgreSQL schema with Prisma ORM, normalized relational models, and index-tuned queries to keep the platform fast at scale. Delivered a full-stack sync engine that pulls assignments from multiple LMS platforms in real time via APIs and ICS parsing into one calendar.",
+      techStack: ["TypeScript", "React", "Next.js", "Node.js", "Prisma", "PostgreSQL", "OAuth/API Integration"],
       category: "Software"
     },
     {
@@ -210,8 +228,8 @@ const ProjectsSection = () => {
     },
     {
       title: "StudyBetter",
-      description: "Won 1st place at Pulse 2026 Hackathon by building a real-time productivity tracking system with actionable student insights. Designed a burnout scoring algorithm incorporating study load, streak patterns, and break frequency to surface userfatigue over time. Built interactive dashboards to visualize study trends across daily, weekly, and subject-level views for data-driven habit adjustments",
-      techStack: ["JavaScript", "Next.js", "PostgreSQL", "Chrome Extension API"],
+      description: "Won 1st place at Pulse 2026 Hackathon, shipping a real-time productivity tracker with actionable student insights in 24 hours. Developed a burnout scoring algorithm modeling study load, streak patterns, and break frequency to flag at-risk students early. Shipped interactive dashboards surfacing daily, weekly, and subject-level study trends to drive data-informed habit changes.",
+      techStack: ["JavaScript", "Next.js", "Chrome Extension APIs", "PostgreSQL (Supabase)"],
       category: "Software"
     },
     {
@@ -296,13 +314,15 @@ const ActivitiesSection = () => {
       techStack: ["Hardware Assembly", "Overclocking", "Performance Optimization", "Customer Service"]
     },
     {
-      title: "Developer",
+      title: "Project Manager",
       company: "NOBE, Champaign, IL",
       date: "Jan 2026 – Present",
       description: [
-        "For a financial client, I built a portfolio optimization algorithm in Python identifying stock combinations meeting unrealized gain and cost basis thresholds from financial CSV datasets, using pruning and heuristic search to improve runtime by ∼60% over a brute-force baseline"
+        "Architected a portfolio optimization algorithm in Python identifying stock combinations meeting gain/cost-basis thresholds, using pruning and heuristic search to improve runtime by ∼60% over brute force",
+        "Engineered an AI-powered trading engine to simulate and execute strategies with real-time market data feeds and automated order logic",
+        "Developed and maintained a database in Azure SQL to store and query historical trade data, positions, and performance metrics across portfolios"
       ],
-      techStack: ["Python", "Microsoft Azure SQL", "Docker", "CI/CD", "Git", "Team Collaboration", "Client Communication"]
+      techStack: ["Python", "Azure SQL", "Docker", "CI/CD", "Git", "Team Collaboration", "Client Communication"]
     }
   ];
 
@@ -343,27 +363,27 @@ const SkillsSection = () => {
     {
       title: "Programming Languages",
       icon: "fas fa-code",
-      skills: ["Java", "Python", "C/C++", "JavaScript", "Swift", "Assembly"]
+      skills: ["Java", "Python", "C/C++", "JavaScript", "TypeScript", "SystemVerilog", "Swift", "Assembly"]
     },
     {
       title: "Web Technologies",
       icon: "fas fa-laptop-code",
-      skills: ["HTML/CSS", "TypeScript", "React.js", "Node.js", "SwiftUI"]
+      skills: ["HTML/CSS", "React.js", "Node.js", "Next.js", "SwiftUI"]
     },
     {
       title: "Databases & Tools",
       icon: "fas fa-database",
-      skills: ["PostgreSQL", "MySQL", "Git", "AWS", "Figma", "Docker", "CI/CD"]
+      skills: ["PostgreSQL", "MySQL", "Azure SQL", "Git", "AWS", "OCI", "Docker", "CI/CD", "Qdrant"]
     },
     {
       title: "Hardware & Systems",
       icon: "fas fa-microchip",
-      skills: ["Verilog", "SystemVerilog", "Digital Logic", "Embedded Systems", "Circuit Design", "PCB Design"]
+      skills: ["Digital Logic", "Embedded Systems", "Circuit Design", "PCB Design"]
     },
     {
       title: "Data & Analytics",
       icon: "fas fa-chart-line",
-      skills: ["NumPy", "Pandas", "Data Analysis", "Algorithm Design"]
+      skills: ["NumPy", "Pandas", "Data Analysis", "Algorithm Design", "LLM/RAG Pipelines"]
     },
     {
       title: "Soft Skills",
