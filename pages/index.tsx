@@ -294,7 +294,7 @@ const ActivitiesSection = () => {
     {
       title: "Electrical Team Member",
       company: "EV Concept, Champaign, IL",
-      date: "Aug 2024 – Present",
+      date: "Aug 2024 – May 2026",
       description: [
         "Designed electrical subsystems for an electric vehicle, including battery management and power distribution",
         "Assisted the embedded team in interfacing rearview camera systems with vehicle electronics and display modules",
@@ -505,6 +505,15 @@ export default function Home() {
     setTheme(newTheme);
     localStorage.setItem('theme', newTheme);
     document.body.setAttribute('data-theme', newTheme);
+
+    // Theme changes can cause the browser to recalculate layout while the
+    // one-time scroll-reveal observer is between callbacks. Re-assert the
+    // revealed state after repaint so project cards never remain transparent.
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.fade-in').forEach((element) => {
+        element.classList.add('visible');
+      });
+    });
   };
 
   useEffect(() => {
