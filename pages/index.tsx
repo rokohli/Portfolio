@@ -185,6 +185,18 @@ const EducationSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "Sift",
+      description: "Built a review-first platform that ingests and enriches public job postings, matches roles against verified resume data, and generates tailored application materials. Engineered idempotent workers with PostgreSQL advisory locks and CI/CD for API tests, web builds, branch protection, and least-privilege VM deployment. Combined deterministic eligibility filtering with BGE cross-encoder reranking, preserving hard constraints before semantic scoring.",
+      techStack: ["Python", "FastAPI", "Next.js", "PostgreSQL", "Docker", "GitHub Actions", "BGE Cross-Encoder"],
+      category: "Software"
+    },
+    {
+      title: "Fairway",
+      description: "Built a social golf discovery and ranking platform with a FastAPI backend, PostgreSQL/PostGIS, Redis, and a React Native mobile client for course discovery, rankings, and trip planning. Implemented Redis-backed rate limiting, authenticated request buckets, idempotent course imports, and CI covering tests, migration validation, security analysis, and secret scanning. Built a guarded Gemini itinerary planner with structured output, server-side validation, Redis quotas, and deterministic fallback on provider failure.",
+      techStack: ["Python", "FastAPI", "PostgreSQL/PostGIS", "Redis", "React Native", "Docker", "Gemini", "GitHub Actions"],
+      category: "Software"
+    },
+    {
       title: "Cruzi",
       description: "Built a student-only rideshare platform connecting verified students for affordable, campus-focused rides as riders or drivers. Engineered an end-to-end ride matching system coordinating rider requests, driver availability, location data, and real-time ride state transitions. Designed a scalable cloud backend supporting 1,000+ concurrent users with secure APIs, automated testing, document storage, and cloud infrastructure.",
       techStack: ["Swift", "Node.js", "JavaScript", "Oracle Autonomous Database", "OCI", "Supabase Auth", "Docker", "Cloudflare", "Stripe", "Git"],
