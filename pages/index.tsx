@@ -180,12 +180,13 @@ const EducationSection = () => {
         <div className="experience-description">
           <p><strong>Relevant Coursework:</strong></p>
           <ul>
-            <li>Computer Systems and Programming</li>
-            <li>Introduction to Computing</li>
-            <li>Introduction to Electronics</li>
-            <li>Linear Algebra with Computational Applications</li>
-            <li>Discrete Structures</li>
+            <li>Applied Parallel Programming (CUDA)</li>
             <li>Data Structures and Algorithms</li>
+            <li>Digital Systems Lab (FPGA)</li>
+            <li>Database Systems</li>
+            <li>Computer Systems and Programming</li>
+            <li>High Frequency Trading Tech</li>
+            <li>Linear Algebra with Computational Applications</li>
           </ul>
         </div>
       </div>
