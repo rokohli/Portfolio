@@ -97,6 +97,17 @@ const Hero = () => {
 const ExperienceSection = () => {
   const experiences = [
     {
+      title: "Founder & Software Engineer",
+      company: "Cruzi, Champaign, IL",
+      date: "Jun 2026 – Present",
+      description: [
+        "Architected a Node.js/Express backend with Oracle Database, authenticated APIs, real-time communication, and transactional ride-state workflows",
+        "Built a durable asynchronous job system using Oracle leases, retries, and dead-letter states for reliable background processing",
+        "Load-tested authenticated workflows with Artillery, validating support for 1,000+ concurrent users; deployed services with Docker and OCI"
+      ],
+      techStack: ["Swift", "Node.js", "JavaScript", "Oracle Autonomous Database", "OCI", "Supabase Auth", "Docker", "Cloudflare", "Stripe"]
+    },
+    {
       title: "Software Engineering Intern",
       company: "Cohesity, Santa Clara, CA",
       date: "Jun 2026 – Aug 2026",
@@ -197,12 +208,6 @@ const ProjectsSection = () => {
       category: "Software"
     },
     {
-      title: "Cruzi",
-      description: "Built a student-only rideshare platform connecting verified students for affordable, campus-focused rides as riders or drivers. Engineered an end-to-end ride matching system coordinating rider requests, driver availability, location data, and real-time ride state transitions. Designed a scalable cloud backend supporting 1,000+ concurrent users with secure APIs, automated testing, document storage, and cloud infrastructure.",
-      techStack: ["Swift", "Node.js", "JavaScript", "Oracle Autonomous Database", "OCI", "Supabase Auth", "Docker", "Cloudflare", "Stripe", "Git"],
-      category: "Software"
-    },
-    {
       title: "Sound-Activated LED Switch (\"Modern Clapper\")",
       description: "Designed and built a sound-activated switching circuit that toggles an LED on/off in response to a loud clap. Implemented a microphone, LM358 op-amp amplifier, and BJT latch to reliably detect sharp audio signals while minimizing noise. Strengthened skills in circuit design, debugging, and oscilloscope signal analysis, learning how small changes in component values impact real-world performance.",
       techStack: ["Circuit Design", "Analog Electronics", "Signal Processing", "Oscilloscope Analysis"],
@@ -236,6 +241,18 @@ const ProjectsSection = () => {
       title: "FPGA Sequence Game",
       description: "Implemented an FPGA-based FSM in SystemVerilog for hardware sequence generation and input validation. Optimized state transitions and signal timing to ensure synchronous operation and gameplay on FPGA hardware. Utilized Xilinx Vivado for synthesis and simulation, conducting timing analysis and performance debugging.",
       techStack: ["SystemVerilog", "Digital Logic", "Hardware Design", "Xilinx Vivado"],
+      category: "Hardware"
+    },
+    {
+      title: "8-Bit Serial Processor",
+      description: "Designed and implemented an 8-bit serial processor integrating a computational datapath, register unit, routing network, and finite-state control unit using discrete digital logic. Derived control equations from truth tables and Karnaugh maps, implementing combinational logic using NAND, NOR, XOR, multiplexers, and shift registers. Debugged datapath routing, register behavior, logic outputs, and synchronous state transitions through iterative hardware testing and signal analysis.",
+      techStack: ["Digital Logic", "FSMs", "TTL ICs", "Oscilloscope"],
+      category: "Hardware"
+    },
+    {
+      title: "GPU Computing",
+      description: "Implemented CUDA kernels for data-parallel workloads using thread/block indexing, GPU memory hierarchies, and synchronization primitives. Analyzed kernel execution and memory-access behavior on NVIDIA GPUs to improve parallel efficiency and throughput.",
+      techStack: ["CUDA C/C++", "NVIDIA GPUs", "Parallel Programming"],
       category: "Hardware"
     },
     {
